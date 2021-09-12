@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\K2host.Core\K2host.Core.csproj" />
+    <ProjectReference Include="..\K2host.Threading\K2host.Threading.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SharpPcap.Core" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
