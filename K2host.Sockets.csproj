@@ -2,6 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Description>A Socket lib allowing you to create communications from app to app.
+TCP with support of TLS / SSL with SNI.
+ReverseProxy using either HTTP or PORT MAPPING.
+RAW Sockets enabling custom setups and other libraries.
+Listener socket for packet sniffing using SharpPCap.Net.</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/Killers2/K2host.Sockets</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Killers2/K2host.Sockets</RepositoryUrl>
+    <PackageIcon>Icon128.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>K2host, Sockets, Proxy, Reverse Proxy, TCP, SNI</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 
@@ -13,6 +27,17 @@
 
   <ItemGroup>
     <PackageReference Include="SharpPcap.Core" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\K2host.Pictures\Icon128.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

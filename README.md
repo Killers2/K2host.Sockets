@@ -10,3 +10,5 @@ ReverseProxy using either HTTP or PORT MAPPING
 RAW Sockets enabling custom setups and other libraries
 
 Listener socket for packet sniffing using SharpPCap.Net
+
+Nuget Package: https://www.nuget.org/packages/K2host.Sockets/
