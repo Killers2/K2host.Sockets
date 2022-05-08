@@ -16,7 +16,15 @@ Listener socket for packet sniffing using SharpPCap.Net.</Description>
     <PackageTags>K2host, Sockets, Proxy, Reverse Proxy, TCP, SNI</PackageTags>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>2.0.6</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>D:\Development\K2host Works\K2host.Packages\K2host.Sockets\</OutputPath>
   </PropertyGroup>
 
 
